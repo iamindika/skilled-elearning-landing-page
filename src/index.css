@@ -4,17 +4,58 @@
 
 :root {
   --grey: #83869A;
-  --black: #13183F;
+  --dark-blue: #13183F;
   --purplish-grey: #666CA5;
   --magenta: #F74780;
   --pink: #FFA7C3;
   --white: #FFF;
+
+  --body-line-height: 26px;
 }
 
 body {
+  /* width: 100%; */
   margin: 0;
+  font: 500 16px 'Plus Jakarta Sans', sans-serif;
+  color: var(--gray);
 }
 
+.container {
+  width: 92%;
+  margin: 0 auto;
+}
+
+.nav-logo {
+  font-weight: 800;
+  font-size: 28px;
+  line-height: 35px;
+  color: var(--dark-blue);
+}
+
+.nav-btn {
+  display: inline-block;
+  width: 140px;
+  height: 48px;
+  border: none;
+  border-radius: 28px;
+  font-weight: 700;
+  line-height: 28px;
+  background-color: var(--dark-blue);
+  color: #FFF
+}
+
+.nav-btn:hover,
+.nav-btn:focus {
+  cursor: pointer;
+  background-color: var(--purplish-grey);
+}
+
+.nav {
+  margin-top: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 /* 
 Gradients
 sunset: linear-gradient(#FF6F48, #F02AA6);
