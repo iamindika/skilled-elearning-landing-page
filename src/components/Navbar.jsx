@@ -1,11 +1,13 @@
 const Navbar = () => (
   <nav className="nav container">
     <span className="nav-logo">skilled</span>
-    <input 
-      className="nav-btn"
-      type="button" 
-      value="Get Started" 
-    />
+    <a 
+        className="nav-btn"
+        href="https://www.frontendmentor.io/profile/iamindika"
+        target="_blank"
+        rel="noopener noreferrer"
+        value=""
+      >Get Started</a>
   </nav>
 );
 

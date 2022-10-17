@@ -11,11 +11,13 @@ const Hero = () => (
         Our modern courses across a range of in-demand skills will give you the knowledge you need to live the life you want.
       </p>
 
-      <input 
+      <a 
         className="hero-btn"
-        type="button" 
-        value="Get Started"
-      />
+        href="https://www.frontendmentor.io/profile/iamindika"
+        target="_blank"
+        rel="noopener noreferrer"
+        value=""
+      >Get Started</a>
     </div>
 
     <div className="hero-image-wrapper container">

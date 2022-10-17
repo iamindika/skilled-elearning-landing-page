@@ -26,11 +26,10 @@ body {
 }
 
 .nav-btn {
-  width: 140px;
-  height: 48px;
-  border: none;
+  padding: 10px 24px;
   border-radius: 28px;
   font: 700 16px / 28px 'Plus Jakarta Sans', sans-serif;
+  text-decoration: none;
   background-color: var(--dark-blue);
   color: #FFF
 }
@@ -49,13 +48,13 @@ body {
 }
 
 .hero-btn {
-  width: 167px;
-  height: 56px;
+  display: inline-block;
   margin-top: 24px;
-  border: none;
+  padding: 15px 37px;
   border-radius: 32px;
   font: 700 16px / 26px 'Plus Jakarta Sans', sans-serif;
   background: linear-gradient(#FF6F48, #F02AA6);
+  text-decoration: none;
   color: var(--white)
 }
 
@@ -82,10 +81,10 @@ body {
 
 /* Generic */
 .nav {
-  margin-top: 16px;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-top: 16px;
 }
 
 .hero {
