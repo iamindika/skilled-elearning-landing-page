@@ -6,7 +6,6 @@ const Navbar = () => (
         href="https://www.frontendmentor.io/profile/iamindika"
         target="_blank"
         rel="noopener noreferrer"
-        value=""
       >Get Started</a>
   </nav>
 );
