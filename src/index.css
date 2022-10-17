@@ -9,14 +9,12 @@
   --magenta: #F74780;
   --pink: #FFA7C3;
   --white: #FFF;
-
-  --body-line-height: 26px;
 }
 
 body {
   /* width: 100%; */
   margin: 0;
-  font: 500 16px 'Plus Jakarta Sans', sans-serif;
+  font: 500 16px / 26px 'Plus Jakarta Sans', sans-serif;
   color: var(--gray);
 }
 
@@ -33,7 +31,6 @@ body {
 }
 
 .nav-btn {
-  display: inline-block;
   width: 140px;
   height: 48px;
   border: none;
@@ -50,11 +47,45 @@ body {
   background-color: var(--purplish-grey);
 }
 
+.hero-title {
+  margin: 0;
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 51px;
+}
+
+.hero-btn {
+  width: 167px;
+  height: 56px;
+  margin-top: 24px;
+  border: none;
+  border-radius: 32px;
+  font: 700 16px / 26px 'Plus Jakarta Sans', sans-serif;
+  background: linear-gradient(#FF6F48, #F02AA6);
+  color: var(--white)
+}
+
 .nav {
   margin-top: 16px;
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.hero {
+  margin-top: 38px;
+}
+
+.hero-text {
+  margin: 26px 0 0;
+}
+
+.hero-image-wrapper {
+  margin-top: 46px;
+}
+
+.hero-image {
+  width: 100%;
 }
 /* 
 Gradients
