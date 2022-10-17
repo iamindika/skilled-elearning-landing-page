@@ -64,6 +64,11 @@ body {
   color: var(--white)
 }
 
+.hero-btn:hover,
+.hero-btn:focus {
+  opacity: 0.5;
+}
+
 .nav {
   margin-top: 16px;
   display: flex;
