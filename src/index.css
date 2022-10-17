@@ -35,8 +35,7 @@ body {
   height: 48px;
   border: none;
   border-radius: 28px;
-  font-weight: 700;
-  line-height: 28px;
+  font: 700 16px / 28px 'Plus Jakarta Sans', sans-serif;
   background-color: var(--dark-blue);
   color: #FFF
 }
