@@ -11,16 +11,11 @@
   --white: #FFF;
 }
 
+/* Typography  */
 body {
-  /* width: 100%; */
   margin: 0;
   font: 500 16px / 26px 'Plus Jakarta Sans', sans-serif;
   color: var(--gray);
-}
-
-.container {
-  width: 92%;
-  margin: 0 auto;
 }
 
 .nav-logo {
@@ -69,6 +64,23 @@ body {
   opacity: 0.5;
 }
 
+.catalog-title {
+  margin: 0;
+  padding: 24px 28px 32px;
+  border-radius: 10px;
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 32px;
+  background: linear-gradient(#FF6F48, #F02AA6);
+  color: var(--white);
+}
+/* Reusable */
+.container {
+  width: 92%;
+  margin: 0 auto;
+}
+
+/* Generic */
 .nav {
   margin-top: 16px;
   display: flex;
@@ -90,6 +102,10 @@ body {
 
 .hero-image {
   width: 100%;
+}
+
+.catalog {
+  margin-top: 66px;
 }
 /* 
 Gradients
