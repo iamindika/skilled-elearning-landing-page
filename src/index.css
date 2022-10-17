@@ -18,25 +18,35 @@ body {
   color: var(--grey);
 }
 
-.nav-logo {
+.logo {
   font-weight: 800;
   font-size: 28px;
   line-height: 35px;
-  color: var(--dark-blue);
 }
 
-.nav-btn {
+.btn {
   padding: 10px 24px;
   border-radius: 28px;
   font: 700 16px / 28px 'Plus Jakarta Sans', sans-serif;
   text-decoration: none;
-  background-color: var(--dark-blue);
-  color: #FFF
+  color: #FFF;
 }
 
-.nav-btn:hover,
-.nav-btn:focus {
+.btn:hover,
+.btn:focus {
   cursor: pointer;
+}
+
+.nav .logo {
+  color: var(--dark-blue);
+}
+
+.nav .btn {
+  background-color: var(--dark-blue);
+}
+
+.nav .btn:hover,
+.nav .btn:focus {
   background-color: var(--purplish-grey);
 }
 
@@ -96,6 +106,24 @@ body {
   opacity: 0.5;
 }
 
+.footer-attribution {
+  margin: 0;
+  font-size: 12px;
+  color: var(--dark-blue);
+  text-align: center;
+}
+
+.footer-link {
+  font-size: 12px;
+  text-decoration: none;
+  color: var(--magenta);
+}
+
+.footer-link:hover,
+.footer-link:focus {
+  opacity: 0.5;
+}
+
 /* Reusable */
 .container {
   width: 92%;
@@ -127,9 +155,10 @@ body {
 }
 
 .catalog {
-  margin-top: 66px;
+  padding: 66px 0 80px;
   background: linear-gradient(180deg, #FFFFFF 0%, #F0F1FF 100%);
 }
+
 .catalog .container {
   display: flex;
   flex-direction: column;
@@ -152,6 +181,31 @@ body {
 .course-description {
   margin: 16px 0 0;
 }
+
+.footer-bg {
+  padding: 36px 0;
+  background-color: var(--dark-blue);
+}
+
+.footer .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer .logo {
+  color: var(--white)
+}
+
+.footer .btn {
+  background: linear-gradient(#4851FF, #F02AA6);
+}
+
+.footer .btn:hover,
+.footer .btn:focus {
+  opacity: 0.5;
+}
+
 
 
 /* 
