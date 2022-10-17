@@ -15,7 +15,7 @@
 body {
   margin: 0;
   font: 500 16px / 26px 'Plus Jakarta Sans', sans-serif;
-  color: var(--gray);
+  color: var(--grey);
 }
 
 .nav-logo {
@@ -45,6 +45,7 @@ body {
   font-weight: 800;
   font-size: 40px;
   line-height: 51px;
+  color: var(--dark-blue);
 }
 
 .hero-btn {
@@ -73,6 +74,28 @@ body {
   background: linear-gradient(#FF6F48, #F02AA6);
   color: var(--white);
 }
+
+.course-title {
+  margin: 0;
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 25px;
+  color: var(--dark-blue);
+}
+
+.course-link {
+  display: inline-block;
+  margin-top: 24px;
+  font: 700 18px / 28px 'Plus Jakarta Sans', sans-serif;
+  text-decoration: none;
+  color: magenta;
+}
+
+.course-link:hover,
+.course-link:focus {
+  opacity: 0.5;
+}
+
 /* Reusable */
 .container {
   width: 92%;
@@ -105,7 +128,32 @@ body {
 
 .catalog {
   margin-top: 66px;
+  background: linear-gradient(180deg, #FFFFFF 0%, #F0F1FF 100%);
 }
+.catalog .container {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.course {
+  position: relative;
+  box-shadow: 0px 25px 50px rgba(6, 22, 141, 0.0442381);
+  border-radius: 10px;
+  padding: 56px 28px 32px;
+  background-color: var(--white);
+}
+
+.course-icon {
+  position: absolute;
+  top: -24px;
+}
+
+.course-description {
+  margin: 16px 0 0;
+}
+
+
 /* 
 Gradients
 sunset: linear-gradient(#FF6F48, #F02AA6);
