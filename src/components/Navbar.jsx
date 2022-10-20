@@ -2,7 +2,7 @@ import Logo from "./Logo";
 import StartButton from './StartButton'
 
 const Navbar = () => (
-  <nav className="nav container">
+  <nav className="nav">
     <Logo />
     <StartButton />
   </nav>
