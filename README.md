@@ -23,9 +23,9 @@ Users should be able to:
 
 ### Screenshot
 
-![./assets/screenshot-mobile.jpg](Mobile-View)
-![./assets/screenshot-tablet.jpg](Tablet-View)
-![./assets/screenshot-desktop.jpg](Table-View)
+![/docs/screenshots/mobile.jpg](Mobile-View)
+![/docs/screenshots/tablet.jpg](Tablet-View)
+![/docs/screenshots/desktop.jpg](Desktop-View)
 
 ### Links
 
